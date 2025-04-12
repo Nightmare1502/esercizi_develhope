@@ -1,3 +1,5 @@
+package TestUno;
+
 public class TestUno {
     public static void main(String[] args) {
         // immettiamo un numero che rappresenta un giorno della settimana
