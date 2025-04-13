@@ -29,9 +29,6 @@ public class TestDueTest {
 
         assertNotNull(dataShort);
         assertFalse(dataShort.isEmpty());
-
-        // Nota: il formato esatto può variare in base alle impostazioni locali del sistema
-        // quindi verifichiamo solo che la stringa contenga alcune parti essenziali
-        assertTrue(dataShort.contains("02") || dataShort.contains("2002"));  // Anno (completo o abbreviato)
+        assertTrue(dataShort.contains("02") || dataShort.contains("2002"));
     }
 }

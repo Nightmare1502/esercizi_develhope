@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class TestTreTest {
 
     @Test
-    public void testLocale() {
+    public void testDate() {
         // Crea e formatta la data
         OffsetDateTime dataSelezionata = OffsetDateTime.parse("2023-03-01T13:00:00Z");
         String dataString = dataSelezionata.format(DateTimeFormatter.ofPattern("dd MMMM yyyy", Locale.ITALY));
