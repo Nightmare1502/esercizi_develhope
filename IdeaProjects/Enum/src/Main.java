@@ -1,7 +1,6 @@
 // Enum per identificare il tipo di forma
 enum TipoForma {
-    TRIANGOLO,
-    RETTANGOLO
+    TRIANGOLO, RETTANGOLO;
 }
 
 // Classe astratta Forma

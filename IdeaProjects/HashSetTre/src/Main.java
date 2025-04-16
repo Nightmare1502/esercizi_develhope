@@ -6,6 +6,7 @@ Svuotare l'hashset, verificarlo e stampare il risultato
  */
 
 
+import java.sql.SQLOutput;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -32,6 +33,8 @@ public class Main {
     }
 
     public static Set<String> creaSet() {
+
+        //metodo per la creazione del hash set e popolarlo
 
         Set<String> animali = new HashSet<String>();
 
