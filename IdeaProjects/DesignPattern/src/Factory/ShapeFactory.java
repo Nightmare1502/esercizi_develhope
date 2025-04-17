@@ -4,11 +4,11 @@ public class ShapeFactory {
 
     public static Shape creaForma(tipoForma tipo) {
         switch (tipo) {
-            case Quadrato:
+            case QUADRATO:
                 return new Quadrato();
-            case Rettangolo:
+            case RETTANGOLO:
                 return new Rettangolo();
-            case Cerchio:
+            case CERCHIO:
                 return new Cerchio();
             default:
                 throw new IllegalArgumentException("Tipo di forma non supportato: " + tipo);
